@@ -1,0 +1,140 @@
+.contact__container {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.contact__contact {
+  width: 50%;
+  padding: 120px 0px 40px 40px;
+}
+
+.contact__contact > li {
+  display: flex;
+  height: 50px;
+}
+
+.form__header {
+  font-family: $default-font;
+  color: getColour(main-pink);
+  font-size: 34px;
+  margin: auto;
+  padding: 40px 0px 40px 0px;
+  width: 90%;
+}
+
+.form__form {
+  padding: 20px;
+}
+
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0 !important;
+}
+
+div > .row {
+  width: 100%;
+}
+
+.website__placeholder {
+  display: flex;
+  background-color: getColour(main-light-grey);
+  color: #ffffff;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.website__placeholder > p {
+  margin: 5px;
+  font-family: $secondary-font;
+}
+
+.form-control {
+  border-radius: 5px !important;
+}
+
+.col-sm-10 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px !important;
+  width: 100% !important;
+}
+
+.form__container {
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.form__width {
+  background-color: getColour(main-lightest-grey);
+  border-radius: 5px !important;
+}
+
+.col-form-label {
+  color: getColour(main-darkest-grey);
+}
+
+.form-label {
+  padding: 0 !important;
+}
+
+.form__submit {
+  background-color: getColour(main-lighter-grey) !important;
+}
+
+.contact__message {
+  resize: none;
+}
+
+.form-check-input[type="checkbox"] {
+  background-color: getColour(main-pink);
+  border: transparent;
+}
+
+.contact__contact > li {
+  width: 250px;
+}
+
+.contact__contact > p {
+  padding-left: 20px;
+}
+
+.fas {
+  font-size: 30px;
+}
+
+.contact__contact > li {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact__container {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .form__container {
+    width: 100%;
+  }
+
+  .contact__contact {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact__contact > li {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .fas {
+    padding-right: 40px;
+  }
+
+  .form__form {
+    width: 100%;
+  }
+}

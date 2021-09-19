@@ -1,0 +1,9 @@
+button.active__button {
+  background-color: getColour(main-pink) !important;
+}
+
+button.button__notActive.btn.btn-primary {
+  background-color: white;
+  color: getColour(main-pink);
+  border: 1px solid getColour(main-pink) !important;
+}

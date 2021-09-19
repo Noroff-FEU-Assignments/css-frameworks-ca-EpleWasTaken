@@ -1,0 +1,118 @@
+.home__title {
+  padding-top: 40px;
+  font-family: $default-font;
+  font-size: 34px;
+  color: getColour(main-pink);
+}
+
+.home__text {
+  font-family: $secondary-font;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+ul.mb-3 {
+  flex-direction: row;
+  background-color: transparent;
+  margin-bottom: 0px !important;
+}
+
+#uncontrolled-tab-example-tab-first,
+#uncontrolled-tab-example-tab-second,
+#uncontrolled-tab-example-tab-third {
+  color: getColour(main-pink) !important;
+  font-size: 19px;
+  font-family: $secondary-font;
+}
+
+.firstTabContainer,
+.secondTabContainer,
+.thirdTabContainer {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.tab__text {
+  padding-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.tab__img {
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.tab__paragraph {
+  font-family: $secondary-font;
+  font-size: 16px;
+}
+
+.tab__socials {
+  display: flex;
+  flex-direction: row;
+  font-family: $secondary-font;
+  padding-top: 10px;
+}
+
+.tab__socials > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+  .accordion__container {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 80px;
+  }
+
+  .firstTabContainer,
+  .secondTabContainer,
+  .thirdTabContainer {
+    flex-direction: column-reverse;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .tab__img {
+    max-width: 100%;
+  }
+
+  .tab__text {
+    padding-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .tab__socials {
+    justify-content: center;
+  }
+
+  .accordion-button {
+    color: getColour(main-pink) !important;
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: white !important;
+    border-bottom: 1px solid getColour(main-pink);
+    color: getColour(main-pink);
+  }
+
+  .accordion-button:focus {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none;
+  }
+}

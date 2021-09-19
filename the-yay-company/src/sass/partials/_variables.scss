@@ -1,0 +1,32 @@
+// Colour variables
+
+$colours: (
+  main-light-grey: #c7c7c7,
+  main-darkest-grey: #0a0a0a,
+  main-lighter-grey: #767676,
+  main-lightest-grey: #efefef,
+  main-pink: #e92569,
+  main-white: #ffffff,
+  main-grey: #e5e5e5,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
+
+// Font variables
+
+$default-font: "Playfair Display", serif;
+$secondary-font: "Lato", sans-serif;
+
+// Sizes
+
+$sizes: (
+  main-logo-px: 20px,
+  main-nav-px: 18px,
+  main-paragraph-px: 16px,
+);
+
+@function getSizes($size) {
+  @return map-get($sizes, $size);
+}
