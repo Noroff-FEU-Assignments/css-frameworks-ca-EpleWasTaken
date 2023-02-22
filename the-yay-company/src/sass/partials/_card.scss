@@ -1,0 +1,48 @@
+.news__title {
+  padding-top: 30px;
+  font-family: $default-font;
+  color: getColour(main-pink);
+}
+
+.row {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto !important;
+}
+
+.card {
+  max-width: 100% !important;
+  height: 100%;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-title.h5 {
+  font-family: $secondary-font !important;
+}
+
+.card-text {
+  font-family: $secondary-font !important;
+}
+
+.col-12 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0px !important;
+}
+
+.btn-toolbar {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: getColour(main-pink);
+  border: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: $secondary-font;
+}
